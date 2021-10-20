@@ -1,0 +1,299 @@
+@import "_variables";
+
+.body_index {
+    background-image: $color-body;
+}
+
+.body_leyendas {
+    background-image: $color-body;
+}
+
+
+.header_pagina {
+background: white;
+}
+
+.imagen_principal {
+background-image: $color-body;
+}
+
+.titulo_principal {
+color: white;
+background-color: $color-principal;
+padding: 1px;
+}
+
+.barra_navegacion_lista {
+   list-style-type: none;
+   position: relative;
+}
+
+.barra_navegacion_lista {
+color: white;
+background-color: $color-principal;
+}
+
+.barra_navegacion_lista_titulo:hover {
+font-family: sans-serif;
+background-color: white;
+color: $color-principal;
+
+}
+
+.barra_navegacion_lista_titulo-historia{
+font-family: sans-serif;
+background-color: white;
+color: $color-principal;
+}
+
+.barra_navegacion_lista_titulo-leyenda{
+font-family: sans-serif;
+background-color: white;
+color: $color-principal;
+}
+
+.main_inicio_galeria {
+background-image: url(https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/162355808_10159087099948887_2709077103982262146_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeH47lP_G0JebHTzrJZvjbdkJ_UNiPLSAMQn9Q2I8tIAxA0tOnXqRrFnYt3r7pY0gm8&_nc_ohc=PgQi1uuL0vIAX990M7e&tn=RwVzKyB7FJXk9laU&_nc_ht=scontent.faep9-1.fna&oh=8a1ef0d62dfd3852d42930c786df6932&oe=61880D84);
+
+}
+
+.main_inicio_galeria_escudo {
+width: 6.5rem;
+height: 6.5rem;
+transition: 1s;
+}
+
+.main_inicio_galeria_escudo:hover{
+height: 10rem; width: 10rem;
+}
+
+.portada_imagen {
+width: 100%;
+}
+
+.logo_redes_sociales {
+width: 2rem;
+height: 2rem;
+}
+
+.main_historia_titulo_escrito {
+color: $color-principal;
+}
+
+.main_section_historia_parrafo {
+background-color: $color-principal;
+color: black;
+font-family: sans-serif;
+}
+
+.main_campeones_lista {
+border: solid 2px;
+padding: none;
+}
+
+.main_campeones_lista_tabla_fila-uno {
+background-color: blue;
+color: white;
+}
+
+.main_campeones_lista_tabla_fila-tres{
+background-color: $color-principal;
+color: white;
+}
+
+.main_campeones_lista_tabla_fila-cinco {
+background-color: $color-principal;
+color: white
+;
+}
+
+.main_leyendas_galeria_lista {
+background-color: white;
+padding: 0;
+}
+
+.grilla_campeones {
+display: grid;  
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 15px;
+margin: 1em;
+justify-content: center;
+align-items: center;
+justify-items: stretch;
+align-items: center;
+justify-self: center;
+}
+
+.grilla_campeones_primera_fila {
+background-color: blue;
+color: white;
+font-size: 2rem;
+}
+
+.grilla_campeones_segunda_fila{
+color: $color-principal;
+font-size: 1rem;
+}
+
+.grilla_campeones_tercera_fila {
+background-color: $color-principal;
+color: white;
+font-size: 1rem;
+}
+
+.grilla_campeones_cuarta_fila{
+color: $color-principal;
+font-size: 1rem;
+}
+
+.grilla_campeones_quinta_fila {
+background-color: blue;
+color: white;
+font-size: 1rem;
+}
+
+.escudo_grilla {
+width: 4rem;
+height: 4rem;
+}
+
+.galeria-jugador-imagen {
+width: 15rem;
+height: 15rem;
+padding: 1rem;
+}
+
+.leyendas_galeria_jugador {
+color:black;
+font-size: 2rem;
+}
+
+.galeria_jugador_parrafo{
+font-size: 1rem;
+font-family: sans-serif;
+}
+
+
+.grid_leyenda {
+display: grid;
+grid-template-columns: 30%,auto;
+grid-template-rows: 20%,auto;
+grid-template-areas:
+"h3 h3"
+"img p";
+justify-content: space-evenly;
+align-items: center;
+}
+
+h3 {
+grid-area: h3;
+}
+
+img {
+grid-area: img;
+}
+
+p {
+grid-area: p;
+}
+
+.leyendas_galeria_lista_item-uno{
+background-color: red;
+}
+
+.leyendas_galeria_lista_item-dos{
+background-color: white;
+}
+
+.leyendas_galeria_lista_item-tres{
+background-color: red;
+}
+
+.logos_redes-leyendas{
+background-color: red;
+}
+
+.logos_redes {
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+padding: 1em;
+background-image: linear-gradient(to right,blue,red,white);
+}
+
+.unete_terminos_condiciones{
+background-color: red;
+}
+
+.unete_video{
+height: 400px;
+width: 500px;
+background-color: red;
+}
+
+.main_unete {
+display: grid;
+grid-template-columns: 50%;
+grid-template-rows: auto;
+grid-template-areas:
+"form video";
+justify-content: stretch;
+}
+
+form {
+grid-area: form;
+}
+
+video {
+grid-area: video;
+}
+
+.body_prueba_sass {
+    background-color: orange;
+}
+
+.color_principal_sass{
+    background-color: $color-prueba-sass-1;
+    width: $ancho-prueba-sass/2;
+}
+
+.color_secundario_sass {
+    background-color: $color-prueba-sass-2;
+    width: $ancho-prueba-sass/4;
+}
+
+.color_terciario_sass {
+    background-color: $color-prueba-sass-3;
+    border: $color-prueba-sass-3;
+    width: $ancho-prueba-sass/6;
+}
+
+.color_cuarto_sass {
+    background-color: $color-prueba-sass-4;
+    color: $color-prueba-sass-3;
+}
+
+.prueba_condicionales_sass {
+      @if $equipo-prueba-condicional == Columbus Crew {
+           background-color: $color-prueba-condicional-1;
+      } @else if $equipo-prueba-condicional == Seattle Sounders {
+                 background-color: $color-prueba-condicional-2;
+     } @else if $equipo-prueba-condicional == Minnesota United {
+                background-color: $color-prueba-condicional-3;
+     } @else {
+                background-color: $color-body;
+      }
+}
+
+.color_prueba_1 {
+    background-color: white;
+    width: 15em*3;
+}
+
+.color_prueba_1-nuevo {
+    @extend.color_prueba_1;
+    height: 10rem;
+}
+
