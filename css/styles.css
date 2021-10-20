@@ -65,6 +65,11 @@
   color: black;
   font-family: sans-serif; }
 
+  .main_campeones_titulo_escrito {
+    color: red;
+  }
+
+
 .main_campeones_lista {
   border: solid 2px;
   padding: none; }
@@ -142,7 +147,8 @@
   display: grid;
   grid-template-columns: 30%,auto;
   grid-template-rows: 20%,auto;
-  grid-template-areas: "h3 h3" "img p";
+  grid-template-areas: "h3 h3"
+ "img p";
   justify-content: space-evenly;
   align-items: center; }
 
